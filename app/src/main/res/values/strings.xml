@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">pepa</string>
+    <string name="logo">Контакты</string>
+    <string name="hint_input_text">Введите имя контакта</string>
+    <string name="findButton">Найти контакт</string>
+    <string name="addButton">Добавить контакт</string>
+    <string name="buildButton">Oб устройстве</string>
+    <string name="contactBtn">Контакты</string>
+    <string name="name">Имя Контакта</string>
+    <string name="number">Номер Контакта</string>
+    <string name="add_name">Введите имя контакта</string>
+    <string name="add_number">Введите номер контакта</string>
+
+
+</resources>

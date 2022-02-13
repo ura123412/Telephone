@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:text="@string/logo"
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/findButton1"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/findButton"
+        android:textColor="@color/background"
+        android:backgroundTint="@color/orange"
+        android:layout_marginHorizontal="150sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        />
+    <Button
+        android:id="@+id/buildButton"
+        android:layout_below="@id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/background"
+        android:backgroundTint="@color/orange"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:text="@string/buildButton"
+        />
+    <Button
+        android:id="@+id/addButton"
+        android:layout_below="@id/findButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addButton"
+        android:textColor="@color/background"
+        android:backgroundTint="@color/orange"
+        android:layout_marginHorizontal="140sp"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:layout_marginTop="40sp"
+        />
+
+    <Button
+        android:id="@+id/contactBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buildButton"
+        android:layout_marginHorizontal="140sp"
+        android:layout_marginTop="40sp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:text="@string/contactBtn"
+        android:textColor="@color/background" />
+
+
+
+
+</RelativeLayout>

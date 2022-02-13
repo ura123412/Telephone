@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/findName"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_marginTop="200sp"
+        android:hint="@string/add_name"
+        android:layout_marginHorizontal="130sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/findNumber"
+        android:background="@color/background"
+        android:layout_below="@+id/findName"
+        android:layout_marginTop="40sp"
+        android:layout_marginHorizontal="130sp"
+
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/findButton2"
+        android:layout_below="@id/findNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/findButton"
+        android:textColor="@color/background"
+        android:fontFamily="@font/montserrat_subrayada_bold"
+        android:backgroundTint="@color/orange"
+        android:layout_marginHorizontal="140sp"
+        android:layout_marginTop="40sp"
+        />
+
+</RelativeLayout>
